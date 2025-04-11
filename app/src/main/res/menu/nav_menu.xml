@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/row_tbr"
+            android:title="To be read"
+            android:icon="@drawable/ic_tbr">
+        </item>
+
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/row_heart"
+            android:title="Favorites"
+            android:icon="@drawable/ic_heart">
+        </item>
+
+
+    </group>
+    <group android:id="@+id/group3">
+
+        <item
+            android:id="@+id/row_journal"
+            android:title="My reading journal"
+            android:icon="@drawable/ic_journal">
+        </item>
+
+
+    </group>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".MyJournalActivity">
+
+    <TextView
+        android:id="@+id/textViewMJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="My journal"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+
+    <ImageButton
+        android:id="@+id/refreshButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="350dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_refresh" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMJ"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+
+    <Button
+        android:id="@+id/buttonAddNewMJ"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Add" />
+
+</LinearLayout>

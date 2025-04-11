@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/back"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:layout_gravity="top|center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="321dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="Our mission is to provide you with a simple and intuitive way to organize your library of favorite books and discover new titles. With our app, you can easily browse our extensive database of titles.\n We believe in the power of books to inspire, shape, and provoke thought. That's why we are committed to providing a unique reading and exploration experience that will inspire you and improve your life."
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+</FrameLayout>
